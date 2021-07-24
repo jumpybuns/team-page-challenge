@@ -24,10 +24,10 @@ html {
     font-family: PT Serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 1rem;
     line-height: 48px;
     letter-spacing: -0.045em;
-
+    padding: 15% 5% 8% 3%;
     color: #000000;
   }
 
@@ -35,10 +35,10 @@ html {
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 0.75rem;
     line-height: 27px;
     /* identical to box height */
-
+    padding: 5% 5% 5% 3%;
     text-transform: uppercase;
 
     color: #000000;
@@ -48,19 +48,34 @@ html {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 0.7rem;
     line-height: 27px;
-
+    padding: 0% 10% 8% 3%;
     color: #000000;
+  }
+
+  .profile-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   div.item {
     display: inline-block;
-    width: 40%;
+    width: 45%;
+    padding: 3%;
   }
   img {
     width: 80%;
     background-color: grey;
+  }
+
+  div.item:nth-child(odd) {
+    padding-top: 0%;
+  }
+  div.item:nth-child(even) {
+    padding-top: 10%;
   }
   .caption {
     writing-mode: vertical-rl;
@@ -69,7 +84,7 @@ html {
     font-family: PT Serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 0.25rem;
+    font-size: 0.5rem;
     line-height: 13px;
     text-transform: uppercase;
 
@@ -80,7 +95,7 @@ html {
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 0.25rem;
+    font-size: 0.75rem;
     line-height: 21px;
     /* identical to box height */
 
@@ -94,7 +109,7 @@ html {
     font-size: 14px;
     line-height: 17px;
     /* identical to box height */
-
+    padding-top: 90%;
     text-align: center;
 
     color: #a9a9a9;
