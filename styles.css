@@ -39,8 +39,6 @@ html {
     line-height: 27px;
     /* identical to box height */
     padding: 5% 5% 5% 3%;
-    text-transform: uppercase;
-
     color: #000000;
   }
 
@@ -114,4 +112,113 @@ html {
 
     color: #a9a9a9;
   }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+
+  margin: 5%;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 5% 5% 0%;
+  width: 35%;
+}
+
+.subtitle {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.75rem;
+  line-height: 27px;
+  /* identical to box height */
+  color: #000000;
+  padding-bottom: 5%;
+}
+
+.title-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 27px;
+}
+
+.profile-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5% 15% 5% 15%;
+}
+
+div.item {
+  display: inline-block;
+  width: 33%;
+  padding: 5%;
+}
+
+div.item:nth-child(odd) {
+  padding-top: 0%;
+}
+div.item:nth-child(even) {
+  padding-top: 10%;
+}
+
+img {
+  max-width: 100%;
+  background-color: grey;
+}
+
+.caption {
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  vertical-align: top;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.5rem;
+  line-height: 13px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.caption2 {
+  vertical-align: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.footer h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  padding-top: 90%;
+  text-align: center;
+
+  color: #a9a9a9;
 }
